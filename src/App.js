@@ -1,13 +1,25 @@
-import "./App.css";
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home";
+import Header from "./Components/Header/Header";
+import About from "./Pages/About";
+import Conatct from "./Pages/Conatct";
+import Service1 from "./Pages/Service1";
+import Footer from "./Components/Footer/Footer";
 
-function App() {
-  let a = 2;
+const App = () => {
   return (
-    <div className="hero">
-      <h1 style={{ backgroundColor: "yellowgreen", color: "orange" }}>Hello</h1>
-      <p>This is a variable: {a + 20}</p>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/service" element={<Service1 />} />
+        <Route path="/contact" element={<Conatct />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

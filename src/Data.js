@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import datas from "./datas.json";
+import datas from "./datas";
 
 const Data = () => {
   const [nData, setData] = useState(datas);
@@ -36,7 +36,7 @@ const Data = () => {
           </li>
         ))}
       </ul>
-      <button onClick={handleClick}>Clear</button>
+      <button onClick={() => handleClick}>Clear</button>
     </div>
   );
 };
