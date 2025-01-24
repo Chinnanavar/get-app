@@ -1,0 +1,29 @@
+[
+  {
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81crMlhnQtL._AC_UL381_SR381,381_.jpg",
+    "title": "ONYX STROM",
+    "publisher": "Joseph Murphy",
+    "price": "12.99"
+  },
+  {
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81wZXiu4OiL._AC_UL381_SR381,381_.jpg",
+    "title": "The Psyhology of Money",
+    "publisher": "Morgan Housel",
+    "price": "10.99"
+  }, 
+  {
+    "img": "https://m.media-amazon.com/images/I/71xJdnydklL._AC_UY545_FMwebp_QL65_.jpg",
+    "title": "The Art of War",
+    "publisher": "Sun Tzu",
+    "price": "19.99"
+  },
+    {
+    "img": "https://m.media-amazon.com/images/I/81hZc4eq1nL._AC_UY545_FMwebp_QL65_.jpg",
+    "title": "The 7 Habits of Highly Effective People",
+    "publisher": "Stephen Covey",
+    "price": "14.99"
+  }
+]
+
+
+
